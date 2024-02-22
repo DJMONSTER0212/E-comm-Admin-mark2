@@ -40,7 +40,7 @@ const NavbarItems = () => {
                 <NavigationMenu orientation='vertical'>
                     <NavigationMenuList className='space-x-6 py-3'>
                         <NavigationMenuItem>
-                            <NavigationMenuTrigger onMouseOver={() => { setSelectedPopularToursItem('categories') }}>Popular tours</NavigationMenuTrigger>
+                            <NavigationMenuTrigger onMouseOver={() => { setSelectedPopularToursItem('categories') }}>Hello</NavigationMenuTrigger>
                             <NavigationMenuContent style={{ width: navbarWidth - 40 + 'px' }}>
                                 <div className="grid grid-cols-3">
                                     <div className="grid grid-cols-1 gap-1 border-r p-2">
@@ -86,12 +86,12 @@ const NavbarItems = () => {
                                             </Link>
                                             <Link href="/auth/signin" legacyBehavior passHref>
                                                 <NavigationMenuLink className={cn(navigationMenuTriggerStyle(), 'text-sm')}>
-                                                    Rent a car
+                                                    link1
                                                 </NavigationMenuLink>
                                             </Link>
                                             <Link href="/auth/signin" legacyBehavior passHref>
                                                 <NavigationMenuLink className={cn(navigationMenuTriggerStyle(), 'text-sm')}>
-                                                    Rent a car
+                                                    link1
                                                 </NavigationMenuLink>
                                             </Link>
                                         </div>
@@ -102,21 +102,21 @@ const NavbarItems = () => {
                         <NavigationMenuItem>
                             <Link href="/explore/rented-cars" legacyBehavior passHref>
                                 <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                                    Rent a car
+                                    link1
                                 </NavigationMenuLink>
                             </Link>
                         </NavigationMenuItem>
                         <NavigationMenuItem>
                             <Link href="/apply-visa" legacyBehavior passHref>
                                 <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                                    Apply for visa
+                                    Link2
                                 </NavigationMenuLink>
                             </Link>
                         </NavigationMenuItem>
                         <NavigationMenuItem>
                             <Link href="/book-hotel" legacyBehavior passHref>
                                 <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                                    Book hotel
+                                    Link3
                                 </NavigationMenuLink>
                             </Link>
                         </NavigationMenuItem>

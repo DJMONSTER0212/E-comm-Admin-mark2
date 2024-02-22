@@ -14,7 +14,7 @@ const NavbarItemsMobile = ({ isSidebarOpen }) => {
         <div className={`${isSidebarOpen && 'w-full opacity-100 transition-all px-4'} px-0 z-30 md:z-0 w-0 opacity-0 transition-all fixed left-0 bg-background overflow-auto h-[calc(100vh-60px)] flex flex-col gap-3 pt-4`}>
             <Accordion type="single" defaultValue='popular-tours' collapsible>
                 <AccordionItem value="popular-tours" className='border-none'>
-                    <AccordionTrigger className='py-0' iconClassName='w-5 h-5'><BorderLink className='xs:text-lg' asText>Popular tours</BorderLink></AccordionTrigger>
+                    <AccordionTrigger className='py-0' iconClassName='w-5 h-5'><BorderLink className='xs:text-lg' asText>Accordion</BorderLink></AccordionTrigger>
                     <AccordionContent className='mt-3 pb-0'>
                         <div className="border rounded-md">
                             <Accordion type="single" defaultValue="popular-categories" collapsible>
@@ -22,13 +22,13 @@ const NavbarItemsMobile = ({ isSidebarOpen }) => {
                                     <AccordionTrigger className='font-medium text-sm px-3 py-2 data-[state=open]:border-b'><p className='flex gap-2 items-center'><Sparkles className='w-4 h-4' />Top categories</p></AccordionTrigger>
                                     <AccordionContent className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 justify-between h-fit mt-3 px-3 pb-2'>
                                         <BorderLink href="/auth/signin" className='text-sm'>
-                                            Rent a car
+                                            link2
                                         </BorderLink>
                                         <BorderLink href="/auth/signin" className='text-sm'>
-                                            Apply for Visa
+                                            liing2
                                         </BorderLink>
                                         <BorderLink href="/auth/signin" className='text-sm'>
-                                            Book hotel
+                                            link1
                                         </BorderLink>
                                         <BorderLink href="/auth/signin" className='text-sm'>
                                             Contact Us
@@ -40,15 +40,7 @@ const NavbarItemsMobile = ({ isSidebarOpen }) => {
                                 <AccordionItem value="item-1" className='border-b-0'>
                                     <AccordionTrigger className='font-medium text-sm px-3 py-2 data-[state=open]:border-b'><p className='flex gap-2 items-center'><Sparkles className='w-4 h-4' />Top categories</p></AccordionTrigger>
                                     <AccordionContent className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 justify-between h-fit mt-3 px-3 pb-2'>
-                                        <BorderLink href="/explore/rented-cars" className='text-sm'>
-                                            Rent a car
-                                        </BorderLink>
-                                        <BorderLink href="/apply-visa" className='text-sm'>
-                                            Apply for Visa
-                                        </BorderLink>
-                                        <BorderLink href="/book-hotel" className='text-sm'>
-                                            Book hotel
-                                        </BorderLink>
+
                                         <BorderLink href="/contact-us" className='text-sm'>
                                             Contact Us
                                         </BorderLink>
@@ -60,16 +52,16 @@ const NavbarItemsMobile = ({ isSidebarOpen }) => {
                 </AccordionItem>
             </Accordion>
             <BorderLink href="/auth/signin" className='xs:text-lg'>
-                Rent a car
+                link1
             </BorderLink>
             <BorderLink href="/auth/signin" className='xs:text-lg'>
-                Apply for Visa
+                link2
             </BorderLink>
             <BorderLink href="/auth/signin" className='xs:text-lg'>
-                Book hotel
+                link3
             </BorderLink>
             <BorderLink href="/auth/signin" className='xs:text-lg'>
-                Contact Us
+                link4
             </BorderLink>
         </div>
     )

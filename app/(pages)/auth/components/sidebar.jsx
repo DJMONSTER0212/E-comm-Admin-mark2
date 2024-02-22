@@ -36,7 +36,7 @@ const Sidebar = () => {
                         <CarouselItem key={index} >
                             <div className='relative'>
                                 <div className="flex flex-col z-10 absolute bottom-10 left-10 right-10">
-                                    <h2 className='text-6xl font-bold text-background leading-[1.2]'>{banner.title}</h2>
+                                    <h2 className='text-6xl font-bold text-background leading-[1.2]'>{banner.title} </h2>
                                     <p className='text-lg font-medium text-background'>{banner.shortDesc}</p>
                                     {(banner.link && banner.btnTitle) && <Button className='w-fit bg-background hover:bg-background/70 text-foreground mt-5' asChild><Link href={banner.link}>{banner.btnTitle} <MoveRight className='ml-3 h-5 w-5 text-foreground' /></Link></Button>}
                                 </div>

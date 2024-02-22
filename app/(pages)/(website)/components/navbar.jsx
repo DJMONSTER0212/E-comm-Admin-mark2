@@ -78,7 +78,7 @@ const Navbar = ({ session: serverSession }) => {
                                             </>
                                         }
                                         <DropdownMenuItem asChild><Link href={`/account`} className='w-full cursor-pointer'>Account</Link></DropdownMenuItem>
-                                        <DropdownMenuItem asChild><Link href={`/account`} className='w-full cursor-pointer'>Bookings</Link></DropdownMenuItem>
+                                        <DropdownMenuItem asChild><Link href={`/account`} className='w-full cursor-pointer'>link</Link></DropdownMenuItem>
                                         <DropdownMenuSub>
                                             <DropdownMenuSubTrigger>Theme</DropdownMenuSubTrigger>
                                             <DropdownMenuSubContent>

@@ -1,4 +1,4 @@
-import { LayoutDashboard, User2, Settings, Globe, Library, FerrisWheel, Image as ImageIcon, Gift, CarTaxiFront, CarFront, Ticket, CreditCard, Hotel, Contact } from 'lucide-react';
+import { LayoutDashboard, User2, Settings, Globe, Library, FerrisWheel, Image as ImageIcon, Gift, CarTaxiFront, CarFront, Ticket, CreditCard, Hotel, Contact, ShoppingCart ,PackageSearch} from 'lucide-react';
 export const sidebarItems = {
     sadmin: [
         {
@@ -14,11 +14,7 @@ export const sidebarItems = {
                     icon: <User2 className='h-5 w-5 text-foreground' />,
                     link: '/panel/users'
                 },
-                {
-                    title: 'Locations',
-                    icon: <Globe className='h-5 w-5 text-foreground' />,
-                    link: '/panel/locations'
-                }
+
             ]
         },
         {
@@ -126,15 +122,10 @@ export const sidebarItems = {
                     icon: <User2 className='h-5 w-5 text-foreground' />,
                     link: '/panel/users'
                 },
-                {
-                    title: 'Locations',
-                    icon: <Globe className='h-5 w-5 text-foreground' />,
-                    link: '/panel/locations'
-                }
             ]
         },
         {
-            group: 'Tours',
+            group: 'Products',
             items: [
                 {
                     title: 'Categories',
@@ -142,57 +133,19 @@ export const sidebarItems = {
                     link: '/panel/tour-categories'
                 },
                 {
-                    title: 'Tours',
-                    icon: <FerrisWheel className='h-5 w-5 text-foreground' />,
+                    title: 'Products',
+                    icon: <ShoppingCart className='h-5 w-5 text-foreground' />,
                     link: '/panel/tours'
                 },
                 {
-                    title: 'Bookings',
-                    icon: <Ticket className='h-5 w-5 text-foreground' />,
+                    title: 'Orders',
+                    icon: <PackageSearch className='h-5 w-5 text-foreground' />,
                     link: '/panel/tours-bookings'
                 },
             ]
         },
-        {
-            group: 'Cars',
-            items: [
-                {
-                    title: 'Car companies',
-                    icon: <CarFront className='h-5 w-5 text-foreground' />,
-                    link: '/panel/car-companies'
-                },
-                {
-                    title: 'Rented cars',
-                    icon: <CarTaxiFront className='h-5 w-5 text-foreground' />,
-                    link: '/panel/rented-cars'
-                },
-                {
-                    title: 'Bookings',
-                    icon: <Ticket className='h-5 w-5 text-foreground' />,
-                    link: '/panel/cars-bookings'
-                },
-            ]
-        },
-        {
-            group: 'Leads',
-            items: [
-                {
-                    title: 'Visa leads',
-                    icon: <CreditCard className='h-5 w-5 text-foreground' />,
-                    link: '/panel/visa-leads'
-                },
-                {
-                    title: 'Hotel leads',
-                    icon: <Hotel className='h-5 w-5 text-foreground' />,
-                    link: '/panel/hotel-leads'
-                },
-                {
-                    title: 'Contact leads',
-                    icon: <Contact className='h-5 w-5 text-foreground' />,
-                    link: '/panel/contact-leads'
-                }
-            ]
-        },
+
+
         {
             group: 'Promotions',
             items: [

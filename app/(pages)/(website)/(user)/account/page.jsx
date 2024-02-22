@@ -18,18 +18,7 @@ const page = () => {
           <p className='text-sm text-muted-foreground mt-1 flex-1'>Edit your profile details, change password and more.</p>
           <ArrowLink asText={true} className='mt-2'>Manage account</ArrowLink>
         </Link>
-        <Link href='/tour-bookings' className="group border rounded-md w-full p-3 flex flex-col" passHref>
-          <Button variant='outline' size='icon' className='shadow-none' asChild><FerrisWheel className='w-4 h-4 p-1.5 text-primary' /></Button>
-          <p className='text-base font-semibold leading-[1.5] mt-3'>Tour bookings</p>
-          <p className='text-sm text-muted-foreground mt-1 flex-1'>See all your tour bookings, booking status, etc.</p>
-          <ArrowLink asText={true} className='mt-2'>View bookings</ArrowLink>
-        </Link>
-        <Link href='/car-bookings' className="group border rounded-md w-full p-3 flex flex-col" passHref>
-          <Button variant='outline' size='icon' className='shadow-none' asChild><CarFront className='w-4 h-4 p-1.5 text-primary' /></Button>
-          <p className='text-base font-semibold leading-[1.5] mt-3'>Car bookings</p>
-          <p className='text-sm text-muted-foreground mt-1 flex-1'>See all your tour bookings, booking status, etc.</p>
-          <ArrowLink asText={true} className='mt-2'>View bookings</ArrowLink>
-        </Link>
+
       </div>
     </>
   )
